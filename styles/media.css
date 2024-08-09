@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}/*# sourceMappingURL=media.css.map */

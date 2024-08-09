@@ -1,0 +1,40 @@
+
+.form__primery {
+    display: flex;
+    flex-direction: column;
+    min-height: 530px;
+}
+.form__control {
+    min-width: 300px;
+    padding: 10px 20px;
+    margin-bottom: 14px;
+    border: 1.5px solid #B0AEBA;
+    background-color: black;
+    color: white;
+    font-family: $font-base;
+    font-size: .875rem;
+    line-height: 1.92;
+
+    &::placeholder {
+        color: white;
+    }
+}
+
+.form__messege {
+    display: block;
+    min-width: 605px;
+    padding: 10px 20px;
+    margin-bottom: 14px;
+    border: 1.5px solid #B0AEBA;
+    resize: none;
+    min-height: 150px;
+    background-color: black;
+    color: white;
+    font-family: $font-base;
+    font-size: .875rem;
+    line-height: 1.92;
+
+    &::placeholder {
+        color: white;
+    }
+}
