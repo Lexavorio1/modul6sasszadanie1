@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), url("fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  background-color: black;
+  color: white;
+}
+
+.conteiner {
+  display: flex;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.h1 {
+  font-family: "Playfair Display";
+  font-size: 2.25rem;
+  margin: 0 0 1.38em;
+}
+
+.btn {
+  padding: 15px;
+  min-width: 140px;
+  cursor: pointer;
+  border: none;
+  background-color: #27252D;
+  color: white;
+}
+
+.contacs__notice {
+  text-align: left;
+  font-size: 0.8125rem;
+}
+
+.form__primery {
+  display: flex;
+  flex-direction: column;
+  min-height: 530px;
+}
+
+.form__control {
+  min-width: 300px;
+  padding: 10px 20px;
+  margin-bottom: 14px;
+  border: 1.5px solid #B0AEBA;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  font-size: 0.875rem;
+  line-height: 1.92;
+}
+.form__control::-moz-placeholder {
+  color: white;
+}
+.form__control::placeholder {
+  color: white;
+}
+
+.form__messege {
+  display: block;
+  min-width: 605px;
+  padding: 10px 20px;
+  margin-bottom: 14px;
+  border: 1.5px solid #B0AEBA;
+  resize: none;
+  min-height: 150px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  font-size: 0.875rem;
+  line-height: 1.92;
+}
+.form__messege::-moz-placeholder {
+  color: white;
+}
+.form__messege::placeholder {
+  color: white;
+}
+
+.img {
+  min-height: 500px;
+  max-width: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.img-1 {
+  padding-top: 100px;
+}
+
+.img-2 {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}/*# sourceMappingURL=style.css.map */
